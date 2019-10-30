@@ -646,6 +646,11 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
+core-js@^3.2.1:
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.3.5.tgz#58d20f48a95a07304b62ff752742b82b56431ed8"
+  integrity sha512-0J3K+Par/ZydhKg8pEiTcK/9d65/nqJOzY62uMkjeBmt05fDOt/khUVjDdh8TpeIuGQDy1yLDDCjiWN/8pFIuw==
+
 core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -2716,6 +2721,13 @@ ts-loader@^6.0.4:
     loader-utils "^1.0.2"
     micromatch "^4.0.0"
     semver "^6.0.0"
+
+ts-polyfill@^3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/ts-polyfill/-/ts-polyfill-3.5.3.tgz#4e58753c357a6243db658955e66b7e249044cd51"
+  integrity sha512-sEMZGBnCnVOkQmK1qBlt/PyHIrdzhl5FKE/SvgSn8GSiZlFBGvMIK+594A3TJ5GHbYIjYK9+V/2ELB3fz99X/A==
+  dependencies:
+    core-js "^3.2.1"
 
 tslib@^1.9.0:
   version "1.10.0"
